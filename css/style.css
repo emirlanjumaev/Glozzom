@@ -1,0 +1,94 @@
+body {
+  overflow-x: hidden;
+}
+
+.navbar .nav-link {
+  font-size: 14px;
+  text-transform: uppercase;
+  padding-left: 1rem !important;
+  padding-right: 1rem !important;
+}
+
+.navbar .nav-item.active {
+  border-left: #444 3px solid;
+}
+
+.carousel-item {
+  height: 450px;
+}
+
+.carousel-image-1 {
+  background: url("../img/image1.jpg");
+  background-size: cover;
+}
+
+.carousel-image-2 {
+  background: url("../img/image2.jpg");
+  background-size: cover;
+}
+
+.carousel-image-3 {
+  background: url("../img/image3.jpg");
+  background-size: cover;
+}
+
+.bg-box {
+  background-image: url(../img/lights.jpg);
+  background-attachment: fixed;
+  min-height: 200px;
+  position: relative;
+}
+.bg-black {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgb(0, 0, 0, 0.4);
+}
+
+.what-we-do {
+  background-image: url(../img/media.jpg);
+  background-attachment: fixed;
+  min-height: 200px;
+  position: relative;
+}
+
+/* ABOUT */
+
+.about-baner {
+  background-image: url(../img/image1.jpg);
+  background-attachment: fixed;
+  background-position-y: center;
+  background-size: cover;
+}
+
+.about-img {
+  position: relative;
+  top: -70px;
+  left: 55px;
+}
+
+.fa-check {
+  position: absolute;
+  left: 15%;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.list-group {
+  position: relative;
+}
+
+.sp {
+  position: absolute;
+  left: 30%;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.list-group-item {
+  min-height: 50px;
+}
+.services-1 .row {
+  gap: 50px 0;
+}

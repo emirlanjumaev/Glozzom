@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="vendors/css/all.css">
+  <link rel="stylesheet" href="vendors/bootstrap.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/medi.css">
+  <title>Bootstrap Theme</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+    <div class="container">
+      <a href="index.html" class="navbar-brand">Glozzom</a>
+      <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a href="index.html" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="about.html" class="nav-link">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a href="services.html" class="nav-link">Services</a>
+          </li>
+          <li class="nav-item">
+            <a href="blog.html" class="nav-link">Blog</a>
+          </li>
+          <li class="nav-item active">
+            <a href="contact.html" class="nav-link">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+
+  <section class="about-baner text-center py-5 text-white">
+    <div class="container">
+      <h1>Contact Us</h1>
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. <br> Quos, suscipit.</p>
+    </div>
+  </section>
+
+  <div class="contanct bg-dark text-white">
+    <div class="row">
+      <div class="col-md-4   offset-md-2">
+        <div class="incon-box d-flex my-5">
+          <i class="fas fa-dumbbell badge-danger
+          p-3 fa-3x mr-2"></i>
+          <h3>TRUCKING SHIPPING SERVICES</h3>
+        </div>
+
+        <div class="incon-box d-flex my-5">
+          <i class="fas fa-truck badge-danger
+          p-3 fa-3x mr-2"></i>
+          <h3>SPACIALITY FREIGHT AND SHIPPING SERVICES</h3>
+        </div>
+
+        <div class="incon-box d-flex my-5">
+          <i class="fas fa-comments badge-danger
+          p-3 pr-4 fa-3x mr-2"></i>
+          <h3>LOGISTIKOS MANAGEMENT</h3>
+        </div>
+      </div>
+
+      <div class="col-md-6">
+        <img class="img-fluid" src="./img/media.jpg" alt="">
+      </div>
+    </div>
+  </div>
+
+  <div class="contact-form my-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 col-lg-4">
+          <div class="card p-3">
+            <div class="card-body">
+              <h4>Get In Touch</h4>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <h4>Address</h4>
+              <p>123 Main St</p>
+              <h4>Email</h4>
+              <p>EmirlanJumaev16@gmail.com</p>
+              <h4>Phone</h4>
+              <p>+996 220 12 74 80</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-8 col-lg-8">
+          <div class="card p-3">
+            <div class="card-body">
+              <h3 class="text-center">Please fill out this form to contact us</h3>
+              <hr>
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <input type="text" class="form-control" placeholder="First Name">
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Last Name">
+                  </div>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Email">
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Phone Number">
+                  </div>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col">
+                  <textarea class="btn-block p-2" placeholder="Message"></textarea>
+                </div>
+              </div>
+              <button class="btn btn-block mt-5 btn-outline-danger">Submit</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- FOOTER -->
+  <footer id="main-footer" class="text-center p-4 bg-dark text-white">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <p>Copyright &copy;
+            <span id="year"></span> Glozzom
+          </p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+  <script src="vendors/js/jquery.js"></script>
+  <script src="vendors/js/popper.js"></script>
+  <script src="vendors/js/bootstrap.js"></script>
+
+  <script>
+    // Get the current year for the copyright
+    $('#year').text(new Date().getFullYear());
+
+  </script>
+</body>
+
+</html>
